@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
     return (
         <>
-            <div style={{ position: 'relative', height: '100vh' }}>
+            <div style={{ position: 'relative' }}>
 
                 <div
                     style={{
@@ -24,14 +24,14 @@ const Home = () => {
                 ></div>
 
 
-                <ul className='bg-white w-[4vw] h-[30vh] text-3xl flex flex-col justify-around items-center sticky top-[20%] left-3 z-10'>
+                {/* <ul className='bg-white w-[4vw] h-[30vh] text-3xl flex flex-col justify-around items-center sticky top-[20%] left-3 z-10'>
                     <li><a href="https://www.linkedin.com/in/motasim-ejaz-979342260/"><BsLinkedin /></a></li>
                     <li><a href="https://github.com/Motasim-Naranja"><BsGithub /></a></li>
                     <li><a href="https://www.instagram.com/motasim_naranja/"><BsInstagram /></a></li>
                     <li><a href=""><BsFacebook /></a></li>
-                </ul>
+                </ul> */}
 
-                <div className='  text-xl z-10 flex flex-col gap-8 tracking-wider'>
+                <div className='  text-xl z-10 flex flex-col gap-8 tracking-wider pb-[20%]'>
                     <h1 className=' px-[27%] font-bold text-2xl z-10'> Hey, I am 
                         <TypeAnimation
                             sequence={[
