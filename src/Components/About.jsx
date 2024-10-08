@@ -10,8 +10,8 @@ const About = () => {
             <div className='bg-[#ebebeb] flex flex-col gap-5 py-12'>
                 <h2 className='text-center font-extrabold text-3xl tracking-wider'>ABOUT ME</h2>
                 <p className='text-xl text-center'>"Discover more about me, what I do, and my current skills, primarily in programming and technology."</p>
-                <div className='flex pt-6'>
-                    <div className='w-[45vw] px-[5%] flex flex-col gap-6 tracking-wide text-xl text-left'>
+                <div className='flex pt-6 sm:flex-col lg:flex-row'>
+                    <div className='w-[45vw] px-[5%] flex flex-col  gap-6 tracking-wide text-xl text-left'>
                         <h3 className='font-bold text-2xl '>Get to know me!</h3>
                         <p className=''>
                             "I'm a Frontend Developer focused on building and managing the user interface of websites and web applications to contribute to a product's overall success. Explore my work in the Projects section.
